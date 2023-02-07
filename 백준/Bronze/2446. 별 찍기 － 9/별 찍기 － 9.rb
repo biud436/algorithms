@@ -1,0 +1,1 @@
+n=gets.to_i;[*0...n,*(n-2).downto(0)].each{|e|puts" "*e+"*"*(2*(n-e)-1)}
