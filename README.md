@@ -1,2 +1,2 @@
-# BOJ
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# Introduction
+This repository has the name called BOJ means [Baekjoon Online Judge](https://www.acmicpc.net/)
