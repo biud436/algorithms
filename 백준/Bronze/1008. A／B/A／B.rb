@@ -1,0 +1,1 @@
+p gets.split(" ").collect! {|i| i.to_f }.reduce(:/)
