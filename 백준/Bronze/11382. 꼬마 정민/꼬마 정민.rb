@@ -1,1 +1,1 @@
-p gets.split.sum &:to_i
+p eval gets.split*?+
