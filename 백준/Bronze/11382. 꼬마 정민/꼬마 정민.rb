@@ -1,1 +1,1 @@
-p gets.split().map(&:to_i).sum()
+p gets.split.sum &:to_i
