@@ -13,11 +13,11 @@ def get_intersection(x1, y1, r1, x2, y2, r2)
     elsif r1 + r2 == d or d == (r1 - r2).abs
         return 1
     # 두 원이 만나지 않는 경우,
-    elsif r1 + r2 < d or d < (r1 - r2).abs
-        return 0
+    elsif r1 + r2 > d and d > (r1 - r2).abs
+        return 2
     # 두 원이 두 점에서 만나는 경우,
     else
-        return 2
+        return 0
     end
     
 end
